@@ -1,0 +1,123 @@
+﻿#admin-main {
+    margin-left: 180px;
+    margin-right: 180px; /* width of sidenav + 60px */
+    margin-top: 80px; /* height of top nav + 40px*/
+    /* border: blue solid 5px;*/
+    max-width: 60vw;
+}
+
+    #admin-main h2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #111;
+    }
+
+.AdminStats {
+    /*    border: #e98074 solid 1px;*/
+    padding: 20px 20px;
+    opacity: 0.8;
+    margin: 40px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+    .AdminStats:hover {
+        border: #e98074 solid 3px;
+    }
+
+    .AdminStats a {
+        text-decoration: none;
+        color: #111;
+    }
+
+        .AdminStats a:hover {
+            color: #e85a4f;
+        }
+
+.statsNum {
+    text-align: right;
+}
+
+.topStats {
+    /*background-color: white;*/
+}
+
+.bottomStats {
+    background-color: white;
+    border: #e98074 solid 1px;
+    display: flex-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logStats {
+    margin-top: 10px;
+}
+
+#actionButton {
+    background-color: #e85a4f;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.dropDownMenu {
+    background-color: #fff;
+}
+
+    .dropDownMenu:hover {
+        background-color: #e98074;
+        color: #fff;
+    }
+
+.reportItem {
+    margin-top: 10px;
+    min-height: 60px;
+    border-bottom: #e98074 solid 1px;
+    width:100%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.actionMenu {
+    margin: auto;
+}
+
+#solveButton {
+    color: #e85a4f;
+    border: #e85a4f solid 1px;
+    background: #fff;
+    width: 100px;
+}
+
+    #solveButton:hover {
+        color: #fff;
+        background: #e98074;
+    }
+
+/*********ALL USERS/ITEMS*************/
+.allUserTable {
+    /*border: #e98074 solid 2px;*/
+    max-width: 80vw;
+}
+
+    .allUserTable thead {
+        text-align: center;
+        color: #111;
+    }
+
+    .allUserTable tr {
+        border: #e98074 solid 2px;
+        text-align: center;
+    }
+
+    .allUserTable tbody {
+        text-align: center;
+        color: dimgray;
+        border-top: #e98074 solid 3px;
+    }
+
+        .allUserTable tbody td {
+            vertical-align: middle;
+        }

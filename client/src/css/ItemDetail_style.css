@@ -1,0 +1,240 @@
+body {
+  background-color: #ffab73;
+}
+
+
+#main-container {
+    height: auto;
+    min-height: 1180px;
+    text-align: center;
+    /*background-attachment: fixed;*/
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+    #main-container::before {
+        background: url('https://wallpaperaccess.com/full/1712406.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .4;
+        z-index: -1;
+    }
+/* item container */
+#item-img-col {
+    height: 100%;
+    /* background-color: red; */
+}
+
+#item-details-col {
+    /* height: 100px; */
+    /* background-color: grey; */
+    margin-top:20px;
+    text-align: left;
+    height: auto;
+    width: 350px;
+}
+
+.good-credit {
+  color: green;
+}
+.normal-credit {
+  color: orange;
+}
+.bad-credit {
+  color: red;
+}
+/* carousel */
+.img-center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-content-img {
+  max-width: 100%;
+  min-height: 80%;
+  object-fit: cover;
+}
+
+/* comments */
+hr {
+    height: 0.5px;
+    min-width: 1000px;
+    background: #d8ac9c;
+}
+.container hr {
+    height: 0.05px;
+    min-width: 1000px;
+    background: #d8ac9c;
+}
+
+#comment-title {
+    color: darkred;
+    margin-left: 35px;
+    font-size: 25px;
+    /*font-weight: bold;*/
+}
+.textAdjust {
+    margin-top: 30px;
+    margin-left: 30px;
+    border: grey solid 2px;
+}
+
+.comment {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+small {
+  margin: 10px 35px;
+  font-size: 20px;
+
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #5f939a;
+    box-shadow: 0 5px #999;
+}
+    .btn-primary:hover {
+        background-color: #e85a4f;
+    }
+
+    .btn-primary:active {
+        background-color: #d97642;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.btn-danger {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ce1212;
+    box-shadow: 0 5px #999;
+}
+
+    .btn-danger:hover {
+        background-color: #e85a4f;
+    }
+
+    .btn-danger:active {
+        background-color: #d97642;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+#addcomment{
+    display:inline-block;
+    width: 121%;
+
+}
+.transparentbox {
+    opacity: 0.7;
+    margin: 20px;
+    /*border: 1px solid black;*/
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    /*filter: alpha(opacity=60);*/ /* This is for IE8 and other earlier browsers */
+}
+.transparentbox-des {
+    min-height: 310px;
+    opacity: 0.7;
+    padding: 20px 10px;
+    margin: 15px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 45px;
+    /*border: 1px solid black;*/
+    background-color: #ffffff;
+    border-radius: 10px;
+    /*filter: alpha(opacity=60);*/ /* This is for IE8 and other earlier browsers */
+}
+
+.head {
+    margin-bottom: 10px;
+}
+
+.user {
+  margin-right: 10px;
+}
+
+#comment-input-form {
+  width: 80%;
+}
+
+ .textarea {
+  width: 100%;
+  display: block;
+} 
+
+.reply-btn {
+    display: inline-block;
+}
+
+.comment-btn {
+  margin-right: 30px;
+}
+
+.report-btn {
+}
+
+#comments-container {
+  /* height: 100px; */
+  background-color: green;
+}
+.btn-dark:disabled {
+    background-color: lightgrey;
+    border: none;
+}
+/*#details-btn-container {
+    border: red solid 5px;
+    bottom: 0px;
+}*/
+
+#product-price h2 {
+    font-family: verdana,arial;
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+
+#seller-credit-point p{    
+    font-family: verdana,arial;
+    font-size: 15px;
+    display:inline-block;
+}
+
+#product-title h1 {
+    font-family: Larsseit,Arial,sans-serif;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-description {
+    font-family: Larsseit,Arial,sans-serif;
+    color: darkred;
+    width: 100%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}

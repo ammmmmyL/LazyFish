@@ -1,0 +1,11 @@
+{
+  "item_id": 1,
+  "item_name": "Camera 1",
+  "owner": 1,
+  "pictures": [],
+  "description": "This is camera 1.",
+  "price": 49.99,
+  "available": true,
+  "comments": [],
+  "deleted": false
+}

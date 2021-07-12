@@ -1,0 +1,7 @@
+.vs/*
+client/node_modules/*
+client/build
+node_modules/*
+/src/.vs/src/v16
+/src/.vs
+mongo-data/*

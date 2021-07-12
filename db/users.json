@@ -1,0 +1,12 @@
+{
+  "user_id": 1,
+  "user_name": "user1",
+  "password": "user1",
+  "user_type": "regular",
+  "banned": false,
+  "credit_point": 5,
+  "item_list": [],
+  "profilePic": [],
+  "cart": [],
+  "purchased": []
+}

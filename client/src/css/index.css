@@ -1,0 +1,17 @@
+/*body {
+    background-color: #ffab73;
+    margin: 0;
+}*/
+
+.nav {
+    /*border: red solid 2px;*/
+}
+
+.pageContent {
+    background-color: #f0e4d7;
+    min-height: 100vh;
+}
+
+* {
+    /*font-family: 'Roboto', sans-serif;*/
+}

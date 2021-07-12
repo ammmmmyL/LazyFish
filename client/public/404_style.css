@@ -1,0 +1,18 @@
+﻿body {
+    background-color: #ffab73;
+}
+.bg404 {
+    /* The image used */
+    background-image: url('https://i.stack.imgur.com/6M513.png');
+    /* Add the blur effect */
+    /*    filter: blur(2px);
+    -webkit-filter: blur(5px);*/
+    /* Full height */
+    height: 1180px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size:inherit;*/
+    transform: translate(0, -1%);
+}
